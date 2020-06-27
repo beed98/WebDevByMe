@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,300;1,700&display=swap');
+
+body {
+    margin: 0;
+    background: url(bg.jpg) no-repeat fixed;
+    font-family: 'Montserrat', sans-serif;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url(header1.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    color: white;
+    font-size: 70px;
+    font-weight: 500;
+    padding: 80px 60px 260px 60px;
+    text-shadow: 0 0 20px rgba(0, 0, 0, .8);
+    
+}
+
+/* <---- NAVBAR ----> */
+
+.nav-list {
+    position: absolute;
+    width: 1600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 0;
+    padding: 0 0 0 25px;
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 2rem;
+    padding: 20px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+}
+
+.nav-item:hover {
+    background-color: rgb(99, 99, 99);
+}
+
+.nav-list .logo2 {
+    margin: 0 20px 0 0;
+}
+
+/* <---- MAIN TEXT ----> */
+ 
+main {
+    background-color: rgb(255, 255, 255);
+}
+
+.text_box p {
+    margin: 15px 30px 0 30px;
+    font-weight: 500;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.last_p {
+    font-weight: 700;
+}
+
+/* <---- MAIN TITLES ----> */
+
+.h1_title{
+    margin: 0;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.h1_title h1 {
+    border-bottom: 3px solid coral;
+}
+
+.h2_title{
+    margin: 0;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.h2_title h2 {
+    border-bottom: 3px solid coral;
+    text-align: center;
+}
+
+/* <---- MAIN IMG ----> */
+
+.float-right {
+    float: right;
+    margin: 0 200px 20px 0px;
+    width: 20%;
+    border: 2px solid rgba(255, 0, 0, .5);
+}
+
+.float-right:hover {
+    transform: scale(1.1);
+}
+
+.float-left {
+    float: left;
+    margin: 0px 20px 20px 200px;
+    width: 20%;
+    border: 2px solid rgba(255, 0, 0, .5);
+}
+
+.float-left:hover {
+    transform: scale(1.1);
+}
+
+/* <---- FOOTER ----> */
+
+footer {
+    display: inline-block;
+    width: 100%;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+    text-align: center;
+}
+
+footer a:hover {
+    border-bottom: 2px solid coral;
+}
+
+footer .left {
+    float: left;
+    padding: 0 0 0 200px;
+}
+
+footer .right {
+    float: right;
+    padding: 0 200px 0 0;
+
+}
